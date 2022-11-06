@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <script src="src/index.js"></script>
+    <title>Payment information</title>
+</head>
+<body>
+    <div class="body-text">Last step in the transaction.</div>
+      <div class="form-container">
+        <div class="personal-information">
+          <h1>Payment Information</h1>
+        </div>
+            <input class="input-field" id="fullName" type="text"  placeholder="Full name"/>
+            <input class="input-field" id="card" type="text" placeholder="Card Number"/>
+            <input class="input-field" id="cardName" type="text" placeholder="Name on Card"/>
+            <input class="input-field" id="ccv" type="text" placeholder="CCV" maxlength="3"/>
+            <input class="input-field" id="country" type="text" autocomplete="on" maxlength="45" placeholder="Country"/>
+            <input class="input-field" id="address" type="text" autocomplete="on" maxlength="45" placeholder="Streed Address"/>
+            <input class="input-field" id="city" type="text" autocomplete="on" maxlength="20" placeholder="City"/>
+            <input class="input-field" id="postalCode" type="text" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="ZIP Code"/>
+    </div>
+    <button class="input-button" id="payButton" type="submit">Pay</button>
+</body>
+</html>
